@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tables</h1>
+        <ul class="navigation">
+            <li><img src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+                    height="20px;"></li>
+            <br>
+            <li class="active">Groceries</li>
+            <br>
+            <li>Col/Row Span Practice</li>
+        </ul>
+    </header>
+
+    <h1 class="table1_groceries">Groceries</h1>
+    <table class="table_1">
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Aisle Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Milk</td>
+                <td>$3.00</td>
+                <td>1</td>
+                <td>A3</td>
+            <tr>
+                <td>Whole Wheat Bread</td>
+                <td>$2.85</td>
+                <td>1</td>
+                <td>A3</td>
+            </tr>
+            <tr>
+                <td>Carrots</td>
+                <td>$2.00</td>
+                <td>2</td>
+                <td>C2</td>
+            </tr>
+            <tr>
+                <td>Apples</td>
+                <td>$3.00</td>
+                <td>4</td>
+                <td>C2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4">Footer</td>
+            <td></td>
+        </tfoot>
+    </table>
+
+    <!-- Nostructured table wit col/row span -->
+    <h1 class="table2_h1">Col/Row Span Practice</h1>
+    <table class='table_2'>
+        <thead>
+            <th>Colum 1</th>
+            <th>Coulum 2</th>
+            <th>Coulum 3</th>
+            <th colspan="2">Coulum 4</th>
+            <th>Coulum 5</th>
+        </thead>
+
+        <tr>
+            <td rowspan="2">A</td>
+            <td>B</td>
+            <td rowspan="3">D</td>
+            <td colspan="2">E</td>
+            <td>F</td>
+
+        </tr>
+        <td>C</td>
+        <td rowspan="2">G</td>
+        <td rowspan="2">H</td>
+        <td rowspan="2">I</td>
+        <tr>
+            <td colspan="2">J</td>
+        </tr>
+        <tr>
+            <td colspan="3">K</td>
+            <td>L</td>
+            <td colspan="2">M</td>
+        </tr>
+    </table>
+
+
+
+    
+
+
+</body>
+
+</html>
